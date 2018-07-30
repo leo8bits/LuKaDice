@@ -83,7 +83,7 @@
         ============================== -->
         <div style="margin-top: 80px; text-align: center">
 
-            <h2 style="text-align: center">DICE DEMO! </h2>
+            <img alt="Logo Luka Dice" class="isotipo" src="images/logo_LukaDice.svg" />
 
             <div class="row" style="width: 96%; margin: auto">
 
