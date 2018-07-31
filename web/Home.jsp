@@ -87,11 +87,11 @@
 
             <div class="row" style="width: 96%; margin: auto">
 
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align: left; border: solid 1px white; margin-right: 2%">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="text-align: left; border: solid 2px #c4de5f; margin-right: 2%">
 
                     <% if (pl != null) {%>
 
-                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6" style="margin-top: 1vh">
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6" style="margin-top: 1vh" >
 
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
@@ -120,8 +120,8 @@
                     <% } else { %>
 
                     <div class="row"  style="color: white; text-align: center;">
-                        <button onclick="switchLogin(1)" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: #a3b0c9">LOGIN</button>
-                        <button onclick="switchLogin(2)" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: grey">REGISTER</button>
+                        <button onclick="switchLogin(1)" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: #a3b0c9"><font color="#fff">LOGIN</button>
+                        <button onclick="switchLogin(2)" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: #484d5f"><font color="#fff">REGISTER</button>
                     </div>
 
                     <div id="panelLogin">
@@ -133,11 +133,11 @@
 
                 </div>
 
-                <div class="col-lg-5 col-md-5" style="text-align: left; border: solid 1px white;">
+            <div class="col-lg-5 col-md-5" style="text-align: left; border: solid 2px #c4de5f;">
 
                     <div class="row"  style="color: white; text-align: center">
-                        <button class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: #a3b0c9">MANUAL BETTING</button>
-                        <button class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: grey">AUTOMATED BETTING</button>
+                        <button class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: #a3b0c9"><font color="#fff">MANUAL BETTING</button>
+                        <button class="col-lg-6 col-md-6 col-sm-6 col-xs-6 btn-default" style="background-color: #484d5f"> <font color="#fff">AUTOMATED BETTING </button>
                     </div>
 
                     <div style="margin-top: 2vh; margin-left: 5%; margin-right: 5%" class="row">
@@ -145,13 +145,13 @@
                             <input id="myBetValue" class="input-lg" style="width: 100%" value="0.00001000" step="0.00000001" min="0.00001000" max="100" type="number" />
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4" style="padding: 0">
-                            <button onclick="divideButton()" class="form-control btnBets">/2</button>
+                            <button onclick="divideButton()" class="form-control btnBets" style="background-color: #484d5f"><font color="#fff">/2</button>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4" style="padding: 0">
-                            <button onclick="doubleButton()" class="form-control btnBets">X2</button>
+                            <button onclick="doubleButton()" class="form-control btnBets" style="background-color: #484d5f"><font color="#fff">X2</button>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4" style="padding: 0">
-                            <button onclick="maxButton()" class="form-control btnBets">MAX</button>
+                            <button onclick="maxButton()" class="form-control btnBets" style="background-color: #484d5f"><font color="#fff">MAX</button>
                         </div>
                     </div>
 
@@ -173,7 +173,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs" style="text-align: left; margin-left: 2%; border: solid 1px white">
+                <div class="col-lg-3 col-md-3 hidden-sm hidden-xs" style="text-align: left; margin-left: 2%; border: solid 2px #c4de5f">
                     <p>AQUI VA UN GRAFICO</p>
                 </div>
             </div>
@@ -191,10 +191,10 @@
 
             <div class="row pull-right" style="text-align: right; margin-right: 4%; display: inline-block"  >
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
-                    <button onclick="" class="">My last bets</button>
-                    <button onclick="" class="">Recent bets</button>
-                    <button onclick="" class="">High rollers</button>
-                    <button onclick="" class="">History</button>
+                    <button onclick="" class="" style="background-color: #484d5f"> <font color="#fff">My last bets</button>
+                    <button onclick="" class="" style="background-color: #484d5f"> <font color="#fff">Recent bets</button>
+                    <button onclick="" class="" style="background-color: #484d5f"> <font color="#fff">High rollers</button>
+                    <button onclick="" class="" style="background-color: #484d5f"> <font color="#fff">History</button>
                 </div>
             </div>
             <table id="diceTable" class="table  table-condensed cell-border" >
